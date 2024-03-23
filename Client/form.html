@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="fonts">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    </div>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header-container">
+            <div class="header">
+                <img src="Images\Logo.png" alt="Logo" id="logoimg">
+                <h2>Forecasting of Electricity Demand</h2>
+            </div>
+        </div>
+
+        <div class="main-form-container">
+            <div class="form-container">
+                <div class="field-container">
+                    <div>
+                        <label id="title" style="text-transform: uppercase;">Generating Different Distribution</label>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="file-container">
+                        <input type="file" id="file">
+                        <input type="submit" id="uploadbtn" value="Upload">
+                    </div>
+                    <br>
+                    <div style="text-align: left; margin-left: 1em;">
+                        <label id="detailslbl">Graph Details</label>
+                    </div>
+                    <br>
+                    <div style="display: flex;">
+                        <input type="text" id="txt" placeholder="Title">
+                    </div>
+                    <br>
+                    <div class="axis-fields">
+                        <input type="text" id="axislbl" placeholder="X-Label">
+                        <input type="text" id="axislbl" placeholder="Y-Label">
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <input type="button" value="GRAPH" id="graphbtn">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <label id="footer">Copyright © 2024. All rights reserved.</label>
+        </footer>
+    
+    </div>
+</body>
+</html>
